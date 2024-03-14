@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  width: 100%;
+  height: 100px;
+  background: rgb(2, 159, 179);
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(249, 19, 237, 0.95);
+  letter-spacing: 0.5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+form {
+  width: 100%;
+  height: 90vh;
+  background: rgba(1, 187, 220, 0.636);
+}
+article {
+  width: 40%;
+  height: 100px;
+  margin: 0 auto;
+  background: rgb(247, 198, 2);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+input {
+  padding: 5px 10px;
+  flex-basis: 70%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 17px;
+  color: red;
+  /* text-transform: capitalize; */
+}
+div {
+  display: flex;
+  background: rgb(112, 174, 241);
+  color: rgb(16, 11, 8);
+  width: 80%;
+  padding: 5px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+#data {
+  width: 100%;
+  height: 400px;
+  background: rgb(161, 201, 1);
+}
+#data > div button {
+  margin-left: 10px;
+  float: right;
+}
+p {
+  padding: 3px;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: capitalize;
+  flex-basis: 40%;
+}
+button {
+  padding: 7px 10px;
+  border: none;
+  background: rgb(98, 178, 248);
+  color: rgb(11, 9, 6);
+  border-radius: 3px;
+  font-weight: bold;
+  flex-basis: 25%;
+  text-transform: capitalize;
+  flex-basis: 30%;
+}
